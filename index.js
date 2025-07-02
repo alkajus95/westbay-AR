@@ -9,5 +9,5 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     const body = encodeURIComponent(
         `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nType of Repair: ${service}\nMessage: ${message}`
     );
-    window.location.href = `mailto:lasillaelectricax@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:lasillaelectrica@gmail.com?subject=${subject}&body=${body}`;
 });
