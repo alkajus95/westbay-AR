@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Westbay Appliance Repair</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./img/logo2r.png" alt="Westbay Logo">
+            <nav>
+                <ul>
+                    <li><a href="#imagen">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+
+    <section id="imagen">
+        <div class="imagen-overlay">
+            <h1>Westbay Appliance Repair</h1>
+            <p>
+                Fast, reliable, and professional repair service for all your home appliances.<br>
+                We bring your appliances back to life with certified technicians and guaranteed results.
+            </p>
+            <ul class="highlights">
+                <li>✔ Same-day service</li>
+                <li>✔ Transparent pricing</li>
+                <li>✔ Warranty on all repairs</li>
+                <li>✔ Friendly customer support</li>
+            </ul>
+        </div>
+        <div class="imagen-overlay">
+            <section id="contact">
+                <h2>Request a Free Quote</h2>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    
+                    <label for="service">Type of Repair:</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="Washing Machine Repair">Washing Machine Repair</option>
+                        <option value="Refrigerator Repair">Refrigerator Repair</option>
+                        <option value="Oven & Stove Repair">Oven & Stove Repair</option>
+                        <option value="Microwave Repair">Microwave Repair</option>
+                        <option value="Dishwasher Repair">Dishwasher Repair</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Describe your issue..." required></textarea>
+                    <button type="submit">Send Email</button>
+                </form>
+            </section>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul class="services-list">
+            <li>
+                <strong>Washing Machine Repair</strong>
+                <img src="./img/washing-machine.png" alt="Washing Machine" class="service-img">
+                <p>Leaks, drum issues, and electrical faults for all brands.</p>
+            </li>
+            <li>
+                <strong>Refrigerator Repair</strong>
+                <img src="./img/refrigerator.png" alt="Refrigerator" class="service-img">
+                <p>Cooling problems, noisy compressors, and more.</p>
+            </li>
+            <li>
+                <strong>Oven & Stove Repair</strong>
+                <img src="./img/oven.png" alt="Oven & Stove" class="service-img">
+                <p>Gas/electric oven repairs, ignition issues, and more.</p>
+            </li>
+            <li>
+                <strong>Microwave Repair</strong>
+                <img src="./img/microwave-oven.png" alt="Microwave" class="service-img">
+                <p>Door, heating, and control panel repairs.</p>
+            </li>
+            <li>
+                <strong>Dishwasher Repair</strong>
+                <img src="./img/dishwasher.png" alt="Dishwasher" class="service-img">
+                <p>Drainage, water supply, and cleaning performance solutions.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-flex">
+                <div class="about-img-col">
+                    <img src="./img/WhatsApp Image 2025-06-28 at 16.35.52.jpeg" alt="Westbay Service Van" class="about-img">
+                </div>
+                <div class="about-text-col">
+                    <h2>About Westbay Appliance Repair</h2>
+                    <p>
+                        With over 10 years of experience, <span class="about-highlight">Westbay Appliance Repair</span> is your trusted partner for home appliance solutions.<br><br>
+                        Our <span class="about-highlight">certified technicians</span> are committed to providing fast, honest, and high-quality service.<br><br>
+                        We value your time and satisfaction, offering <span class="about-highlight">transparent pricing</span> and a <span class="about-highlight">warranty</span> on every repair.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Westbay Appliance Repair. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
