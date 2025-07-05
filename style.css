@@ -1,14 +1,14 @@
 :root {
-    --primary: #0b0b0b;
+    --primary: #060706;
     --secondary: #ededed;
     --header-text: #fff;
-    --nav-bg: #0b0b0b;
+    --nav-bg: #060706;
     --nav-text: #fff;
     --container-bg: #fff;
     --overlay-bg: rgba(0,0,0,0.5);
     --overlay-text: #fff;
     --input-border: #ccc;
-    --button-bg: #0b0b0b;
+    --button-bg: #060706;
     --button-text: #fff;
     --footer-bg: #222;
     --footer-text: #fff;
@@ -62,7 +62,6 @@ header {
 
 .container img:hover {
     transform: scale(1.08) rotate(-6deg);
-    box-shadow: 0 8px 32px rgba(255,114,0,0.18);
 }
 
 @keyframes logoPopIn {
