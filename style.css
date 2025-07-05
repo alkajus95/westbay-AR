@@ -258,6 +258,7 @@ a{
 }
 a:hover {
     color: var(--a);
+    cursor: pointer;
 }
 
 #services {
