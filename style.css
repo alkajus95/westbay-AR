@@ -26,7 +26,7 @@
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: var(--secondary);
+    background: var(--primary);
 }
 
 header {
@@ -277,8 +277,7 @@ a:hover {
 }
 
 .services-list {
-    display: grid;
-    background: var(--about-us-bg);
+    display: grid;background: var(--about-bg);
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 24px;
     margin: 32px 0 0 0;
@@ -287,7 +286,7 @@ a:hover {
 }
 
 .services-list li {
-    background: ;
+    background: #fffbe7;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     padding: 20px 16px;
